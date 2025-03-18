@@ -1,6 +1,6 @@
 <script>
   // Import beach background image
-  const beachImage = 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000';
+  import beachImage from '../assets/forestBackground.jpg';
 </script>
 
 <footer id="contact">
@@ -43,7 +43,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1))
   }
 
   .content {

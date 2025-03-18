@@ -1,5 +1,5 @@
 <script>
-  import forestBackground from '../assets/forestBackground.jpg?url';
+  import forestBackground from '../assets/forestSummer.jpeg?url';
 
   function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
@@ -62,7 +62,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
   }
 
   .content {
@@ -76,6 +76,7 @@
     margin: 0;
     font-weight: 200;
     letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.9);
   }
 
   h2 {
