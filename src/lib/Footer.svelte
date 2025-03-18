@@ -3,8 +3,8 @@
   const beachImage = 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000';
 </script>
 
-<footer>
-  <div class="background-container" id="contact">
+<footer id="contact">
+  <div class="background-container">
     <img src={beachImage} alt="" class="background-image" />
     <div class="overlay"></div>
   </div>
