@@ -9,6 +9,10 @@
   }
 </script>
 
+<svelte:head>
+  <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400&display=swap" rel="stylesheet">
+</svelte:head>
+
 <section class="hero">
   <div class="background-container">
     <img src={forestBackground} alt="" class="background-image" />
@@ -67,13 +71,15 @@
   }
 
   h1 {
+    font-family: 'Kodchasan', sans-serif;
     font-size: 4rem;
     margin: 0;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-weight: 200;
+    letter-spacing: 0.05em;
   }
 
   h2 {
+    font-family: 'Kodchasan', sans-serif;
     font-size: 1.5rem;
     margin: 1rem 0 2rem;
     font-weight: 300;
