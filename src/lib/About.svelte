@@ -1,6 +1,6 @@
 <script>
   // Placeholder profile image - replace with actual image later
-  const profileImage = 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=400';
+  import profileImage from '../assets/mayra_pf.jpg';
 </script>
 
 <section class="about" id="about">
@@ -52,7 +52,9 @@
   .profile img {
     width: 100%;
     max-width: 400px;
-    border-radius: 50%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
 

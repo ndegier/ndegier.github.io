@@ -18,9 +18,9 @@
     <h1>Mayra van der Waal</h1>
     <h2>Handgemaakte keramiek</h2>
     <div class="buttons">
-      <button class="primary" on:click={() => scrollToSection('about')}>Over mij</button>
-      <button class="primary" on:click={() => scrollToSection('portfolio')}>Portfolio</button>
-      <button class="secondary" on:click={() => scrollToSection('contact')}>Contact</button>
+      <button class="navigation" on:click={() => scrollToSection('about')}>Over mij</button>
+      <button class="navigation" on:click={() => scrollToSection('portfolio')}>Portfolio</button>
+      <button class="navigation" on:click={() => scrollToSection('contact')}>Contact</button>
     </div>
   </div>
 </section>
@@ -99,12 +99,7 @@
     transform: translateY(-2px);
   }
 
-  .primary {
-    background-color: white;
-    color: #333;
-  }
-
-  .secondary {
+  .navigation {
     background-color: transparent;
     border: 2px solid white;
     color: white;
