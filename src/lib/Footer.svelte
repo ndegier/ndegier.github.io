@@ -4,7 +4,7 @@
 </script>
 
 <footer>
-  <div class="background-container">
+  <div class="background-container" id="contact">
     <img src={beachImage} alt="" class="background-image" />
     <div class="overlay"></div>
   </div>

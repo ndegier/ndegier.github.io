@@ -3,24 +3,46 @@
   const profileImage = 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=400';
 </script>
 
-<section class="about">
-  <div class="profile">
-    <img src={profileImage} alt="Mayra aan het werk" />
+<section class="about" id="about">
+  <div class="header">
+    <h2>Over mij</h2>
   </div>
-  <div class="text">
-    <h2>Handgemaakte keramiek door Mayra</h2>
-    <p>Keramiek geïnspireerd door de natuur</p>
+  <div class="content">
+    <div class="profile">
+      <img src={profileImage} alt="Mayra aan het werk" />
+    </div>
+    <div class="text">
+      <h3>Handgemaakte keramiek door Mayra</h3>
+      <p class="subtitle">Keramiek geïnspireerd door de natuur</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Nullam scelerisque, dui eu pulvinar tincidunt, purus lorem vestibulum lectus, in eleifend nisl sem vel diam. Donec pharetra, est quis convallis venenatis, nisi tellus pulvinar magna, in porttitor elit lectus eget sem.</p>
+      <p>Sed ut elementum dui. Praesent gravida facilisis nisl eget tempus. Nullam quis tincidunt diam. Vestibulum viverra hendrerit cursus. Etiam accumsan est eu tellus commodo, vitae maximus justo viverra.</p>
+    </div>
   </div>
 </section>
 
 <style>
   .about {
-    padding: 4rem 2rem;
+    padding: 6rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .header h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #333;
+    margin: 0;
+  }
+
+  .content {
     display: flex;
     align-items: center;
     gap: 4rem;
-    max-width: 1200px;
-    margin: 0 auto;
   }
 
   .profile {
@@ -38,24 +60,36 @@
     flex: 1;
   }
 
-  h2 {
+  h3 {
     font-size: 2rem;
     font-weight: 300;
     margin: 0 0 1rem;
     color: #333;
   }
 
-  p {
+  .subtitle {
     font-size: 1.2rem;
-    line-height: 1.6;
     color: #666;
+    margin-bottom: 2rem;
+    font-style: italic;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 1.5rem;
   }
 
   @media (max-width: 768px) {
-    .about {
+    .content {
       flex-direction: column;
       text-align: center;
       gap: 2rem;
+    }
+
+    .profile img {
+      max-width: 300px;
     }
   }
 </style> 

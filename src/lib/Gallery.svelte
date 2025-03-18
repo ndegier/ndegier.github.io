@@ -33,7 +33,7 @@
   ];
 </script>
 
-<section class="gallery">
+<section class="gallery" id="portfolio">
   <div class="header">
     <h2>Portfolio</h2>
     <p>Een selectie van mijn handgemaakte keramiek</p>

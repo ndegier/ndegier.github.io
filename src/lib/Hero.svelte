@@ -1,5 +1,12 @@
 <script>
   import forestBackground from '../assets/forestBackground.jpg?url';
+
+  function scrollToSection(sectionId) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 </script>
 
 <section class="hero">
@@ -11,8 +18,9 @@
     <h1>Mayra van der Waal</h1>
     <h2>Handgemaakte keramiek</h2>
     <div class="buttons">
-      <button class="primary">Portfolio</button>
-      <button class="secondary">Contact</button>
+      <button class="primary" on:click={() => scrollToSection('about')}>Over mij</button>
+      <button class="primary" on:click={() => scrollToSection('portfolio')}>Portfolio</button>
+      <button class="secondary" on:click={() => scrollToSection('contact')}>Contact</button>
     </div>
   </div>
 </section>
