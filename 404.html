@@ -4,12 +4,9 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-        // Get the current path
+        // Get the current path and redirect to it
         const path = window.location.pathname;
-        // Remove the repository name from the path
-        const cleanPath = path.replace('/WebsiteMayra/', '');
-        // Redirect to the main page
-        window.location.href = '/WebsiteMayra/' + cleanPath;
+        window.location.href = path;
     </script>
 </head>
 <body>
