@@ -1,5 +1,5 @@
 <script>
-  import logoBig from '../assets/logo_big.png?url';
+  import logoBig from '../assets/logo_big.svg?url';
 </script>
 
 <nav class="navbar">

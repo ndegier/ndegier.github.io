@@ -6,11 +6,13 @@
   import Navbar from './lib/Navbar.svelte';
 </script>
 
-<Navbar />
-<Hero />
-<About />
-<Gallery />
-<Footer />
+<main>
+  <Navbar />
+  <Hero />
+  <About />
+  <Gallery />
+  <Footer />
+</main>
 
 <style>
   :global(body) {
