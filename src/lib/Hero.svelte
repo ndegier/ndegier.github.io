@@ -69,12 +69,12 @@
     position: relative;
     padding: 2rem;
     width: 100%;
-    max-width: 1200px;
+    max-width: min(90vw, 1200px);
   }
 
   h1 {
     font-family: 'Kodchasan', sans-serif;
-    font-size: 4rem;
+    font-size: clamp(2rem, 5vw, 4rem);
     margin: 0;
     font-weight: 200;
     letter-spacing: 0.05em;
@@ -82,7 +82,7 @@
 
   h2 {
     font-family: 'Kodchasan', sans-serif;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     margin: 1rem 0 2rem;
     font-weight: 300;
     letter-spacing: 1px;
@@ -114,14 +114,6 @@
   }
 
   @media (max-width: 768px) {
-    h1 {
-      font-size: 3rem;
-    }
-
-    h2 {
-      font-size: 1.2rem;
-    }
-
     .navigation {
       width: 140px;
       padding: 0.7rem 1rem;
@@ -129,14 +121,6 @@
   }
 
   @media (max-width: 480px) {
-    h1 {
-      font-size: 2.5rem;
-    }
-
-    h2 {
-      font-size: 1rem;
-    }
-
     .buttons {
       gap: 0.5rem;
     }

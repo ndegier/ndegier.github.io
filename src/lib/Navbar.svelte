@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     height: 80px;
-    background-color: #556B2F;
+    background-color: #bcbfa0;  /* Soft mint green color */
     display: flex;
     align-items: center;
     justify-content: center;
