@@ -1,5 +1,5 @@
 <script>
-  import forestBackground from '../assets/forestSummer.jpeg?url';
+  import forestBackground from '../assets/forestSummer.jpeg';
 
   function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
