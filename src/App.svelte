@@ -3,14 +3,14 @@
   import About from './lib/About.svelte';
   import Gallery from './lib/Gallery.svelte';
   import Footer from './lib/Footer.svelte';
+  import Navbar from './lib/Navbar.svelte';
 </script>
 
-<main>
-  <Hero />
-  <About />
-  <Gallery />
-  <Footer />
-</main>
+<Navbar />
+<Hero />
+<About />
+<Gallery />
+<Footer />
 
 <style>
   :global(body) {

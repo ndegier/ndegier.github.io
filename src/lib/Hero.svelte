@@ -76,7 +76,6 @@
     margin: 0;
     font-weight: 200;
     letter-spacing: 0.05em;
-    color: rgba(255, 255, 255, 0.9);
   }
 
   h2 {
