@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-  <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400&display=swap" rel="stylesheet">
 </svelte:head>
 
 <section class="hero">
@@ -73,15 +73,15 @@
   }
 
   h1 {
-    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: clamp(2rem, 5vw, 4rem);
     margin: 0;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 0.05em;
   }
 
   h2 {
-    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: clamp(1rem, 2vw, 1.5rem);
     margin: 1rem 0 2rem;
     font-weight: 300;
