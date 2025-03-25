@@ -68,6 +68,8 @@
   .content {
     position: relative;
     padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
   }
 
   h1 {
@@ -90,24 +92,59 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
-  }
-
-  button {
-    padding: 0.8rem 2rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
-
-  button:hover {
-    transform: translateY(-2px);
+    margin: 0 auto;
+    max-width: 600px;
   }
 
   .navigation {
-    background-color: transparent;
+    width: 160px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
     border: 2px solid white;
     color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    white-space: nowrap;
+  }
+
+  .navigation:hover {
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+
+    .navigation {
+      width: 140px;
+      padding: 0.7rem 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+
+    .buttons {
+      gap: 0.5rem;
+    }
+
+    .navigation {
+      width: 120px;
+      padding: 0.6rem 0.8rem;
+      font-size: 0.9rem;
+    }
   }
 </style> 
