@@ -6,8 +6,10 @@
   import Navbar from './lib/Navbar.svelte';
 </script>
 
+<!-- Critical: Navbar must remain at the top level -->
+<Navbar />
+
 <main>
-  <Navbar />
   <Hero />
   <About />
   <Gallery />
