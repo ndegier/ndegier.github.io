@@ -1,7 +1,7 @@
 <script>
   import Hero from './lib/Hero.svelte';
   import About from './lib/About.svelte';
-  import Gallery from './lib/Gallery.svelte';
+  import Portfolio from './lib/Portfolio.svelte';
   import Footer from './lib/Footer.svelte';
   import Navbar from './lib/Navbar.svelte';
 </script>
@@ -12,7 +12,7 @@
 <main>
   <Hero />
   <About />
-  <Gallery />
+  <Portfolio />
   <Footer />
 </main>
 

@@ -14,8 +14,9 @@
     <div class="text">
       <h3>Handgemaakte keramiek door Mayra</h3>
       <p class="subtitle">Keramiek geïnspireerd door de natuur</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Nullam scelerisque, dui eu pulvinar tincidunt, purus lorem vestibulum lectus, in eleifend nisl sem vel diam. Donec pharetra, est quis convallis venenatis, nisi tellus pulvinar magna, in porttitor elit lectus eget sem.</p>
-      <p>Sed ut elementum dui. Praesent gravida facilisis nisl eget tempus. Nullam quis tincidunt diam. Vestibulum viverra hendrerit cursus. Etiam accumsan est eu tellus commodo, vitae maximus justo viverra.</p>
+      <p>Hoi! Ik ben Mayra en ik maak handgemaakte keramiek, vaak geïnspireerd door de natuur. Ik houd van organische vormen en decoraties waar je blij van wordt. Het thema van mijn eindexamen voor de Nederlandse Keramiekopleiding is dan ook 'boswandeling'.</p>
+        <p>In 2021 schreef ik me in voor mijn eerste pottenbaklessen en ik was direct verkocht. Ik kon steeds niet wachten tot de week voorbij was en ik weer achter de draaischijf kon kruipen! Pottenbakken is minder denken en meer voelen. Focussen op de klei en meebewegen met het materiaal brengt me veel rust en blijheid!</p>
+      <p>In 2022 besloot ik dat ik me nog meer wilde verdiepen in de klei en schreef me in bij de Nederlandse Keramiekopleiding in Gouda. Daar leerde ik niet alleen beter draaien, maar ontdekte ook de mogelijkheden van handvormen en de geheimen van glazuurontwikkeling. </p>
     </div>
   </div>
 </section>
