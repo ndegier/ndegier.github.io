@@ -20,7 +20,7 @@
   :global(body) {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Nunito', sans-serif;
     background-color: #faf7f2;
   }
 
