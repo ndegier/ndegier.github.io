@@ -3,7 +3,7 @@
 
   const items = portfolio.map(item => {
     return {
-      "image": `src/assets/Portfolio/${item.image}`,
+      "image": `../assets/${item.image}`,
       "title": item.title,
       "description": item.description
     }
