@@ -1,13 +1,21 @@
-<script>
+<script lang='ts'>
   import portfolio from './portfolio.json';
 
+  const images: Record<string, { default: string }> = import.meta.glob('../assets/portfolio/*.jpg', { eager: true });
+
   const items = portfolio.map(item => {
-    return {
-      "image": `/assets/${item.image}`,
-      "title": item.title,
-      "description": item.description
+    const imagePath = Object.keys(images).find(key => key.endsWith(item.image));
+    
+    if (!imagePath) {
+      console.warn(`Image not found for: ${item.image}`);
     }
-  })
+
+    return {
+      image: imagePath,
+      title: item.title,
+      description: item.description
+    };
+  });
 </script>
 
 <section class="gallery" id="portfolio">
@@ -19,7 +27,7 @@
   <div class="grid">
     {#each items as item}
       <div class="item">
-        <img src={item.image} alt={item.title} />
+        <img src={images[item.image].default} alt={item.title} />
         <h3>{item.title}</h3>
         <p>{item.description}</p>
       </div>
