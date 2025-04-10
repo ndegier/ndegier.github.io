@@ -1,7 +1,7 @@
 <script lang='ts'>
   import portfolio from './portfolio.json';
 
-  const images: Record<string, { default: string }> = import.meta.glob('../assets/portfolio/*.jpg', { eager: true });
+  const images: Record<string, { default: string }> = import.meta.glob('../assets/*.jpg', { eager: true });
 
   const items = portfolio.map(item => {
     const imagePath = Object.keys(images).find(key => key.endsWith(item.image));
