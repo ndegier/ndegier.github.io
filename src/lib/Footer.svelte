@@ -11,7 +11,7 @@
   <div class="content">
     <h2>Contact</h2>
     <p>Voor vragen of opdrachten, neem gerust contact op</p>
-    <a href="mailto:info@mayravanderwaal.nl" class="contact-button">Email mij</a>
+    <a href="mailto:keramiek@mayravanderwaal.nl" class="contact-button">Email mij</a>
   </div>
 </footer>
 
